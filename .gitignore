@@ -1,0 +1,11 @@
+# Backend
+samd.db
+__pycache__/
+*.pyc
+.env
+
+# Frontend
+frontend/node_modules/
+
+# General
+.DS_Store
