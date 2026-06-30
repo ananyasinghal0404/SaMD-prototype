@@ -15,9 +15,11 @@ Existing SaMD systems suffer from fragmented edge-cloud architectures, vendor lo
 ![Architecture Diagram](SAMD_ar.png)
 
 The architecture follows a **three-tier model** (Device → Edge → Cloud) with two **cross-cutting frameworks** spanning all tiers:
+
 Tier 1 — Device Layer
 
 Sensors → Preprocessing → Threshold Detection
+
 Tier 2 — Intelligent Edge Layer
 
 Interoperability Engine → Stream Optimizer → Local Buffer
@@ -27,6 +29,7 @@ Interoperability Engine → Stream Optimizer → Local Buffer
 Network Monitors + Placement Decision Engine)
 
 → Edge Execution Engine
+
 Tier 3 — Cloud Layer
 
 Data Management (Storage + Analytics)
